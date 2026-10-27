@@ -1,0 +1,122 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+/* header takbar */
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    border-bottom: 1px solid black;
+    background-color: white;
+}
+.artikel{
+    font-size: 20px;
+    font-weight: bold;
+}
+.logo{
+    font-weight: bold;
+    font-size: 18px;
+    color: black;
+    font-style: italic;
+}
+.nav_menu{
+    display: flex;
+    color: black;
+    gap: 20px;
+}
+
+.button{
+    display: flex;
+    color: magenta;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+/* article tengah */
+.mid{
+    text-align: center;
+    color: black;
+    padding: 60px 20px;
+    background-color: #f9f9f9f9;
+}
+.content{
+    display: flex;
+    color: black;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px 20px;
+}
+.kartu1,.kartu2,.kartu3{
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+.kartu1:hover,.kartu2:hover,.kartu3:hover{
+    transform: translateY(-10px);
+}
+.kartu1{
+    width: 220px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    background-image:url(foto1.jpg);
+    background-size:cover;
+}
+.kartu2{
+    width: 220px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    background-image:url(foto_2.jpg) ;
+    background-size: cover;
+}
+.kartu3{
+    width: 220px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    background-image: url(foto3.jpg);
+    background-size: cover;
+}
+/* bagian bawah footer */
+.bawah{
+    margin-top: 100px;
+    display: flex;
+    color: black;
+    justify-content: space-around;
+    background-color: #f9f9f9f9;
+    padding: 40px 20px;
+    border-top: 1px solid black;
+    flex-wrap: wrap;
+}
+.footer1{
+    width: 200px;
+    margin-bottom: 20px;
+}
+.footer2{
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+.footer3{
+    font-size: 12px;
+    color: #666;
+    margin: 5px 0;
+}
+.footer4{
+    font-size: 12px;
+    margin: 5px 0;
+}
+.kopai{
+    text-align: center;
+    padding: 15px;
+    background-color: #e9e9e9;
+    font-size: 12px;
+    color: black;
+}
+
